@@ -1,0 +1,74 @@
+position:absolute;
+padding-top:4%;
+padding-left:80%;
+
+
+.banner {
+  position:absolute;
+  z-index:1;
+  float:left;
+  font-size:12px;
+  background-color:rgb(140,188,208);
+  margin:0px;
+  color:#00458E;
+}
+
+  <div id="banner">HAMPTON CITY SCHOOLS <strong>EVERY CHILD, EVERY DAY, WHATEVER IT TAKES!</strong></div>
+
+
+  #Banner-color{
+    background-color:rgb(140,188,208);
+    height:100px;
+    width:100%
+
+  }
+
+  .links a:hover, a.on {
+    transform:scale(0.9);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Success!");
+    })
+  });
+});
+
+
+
+https://script.google.com/macros/s/AKfycbxkBk_mM2bzFjyKVbeM05rs4np3y3QldkfvzjaNLl9kfLLz1vtLb4zXXt-QMP8Kwgfc/exec
+
+
+<script>
+function myFunction() {
+var currentLocation = window.location;
+document.getElementById('url').value = currentLocation;
+}
+
+window.addEventListener("DOMContentLoaded", function() {
+const yourForm = document.getElementById('my-form');
+yourForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+  const data = new FormData(yourForm);
+  const action = e.target.action;
+  fetch(action, {
+    method: 'POST',
+    body: data,
+  })
+  .then(() => {
+    alert("Request Submitted!");
+  })
+});
+});
+</script>

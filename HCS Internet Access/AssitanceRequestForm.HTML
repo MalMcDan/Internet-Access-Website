@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+  	<head>
+    		<meta charset=utf-8>
+		<title>Assistance Request Form</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0;">
+		<link rel=stylesheet type=text/css href=Style.css>
+    </head>
+  <body>
+    <div id="Banner-color">
+        <div id="container">
+            <div class="links">
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="img/EMAILICON.png"></a>
+                <a href="https://www.facebook.com/HamptonCSchools"><img src="img/FB1.png"></a>
+                <a href="https://www.instagram.com/hampton_city_schools/"><img src="img/IG1.png"></a>
+                <a href="https://twitter.com/HamptonCSchools"><img src="img/TW1.png"></a>
+                <a href="https://www.youtube.com/user/HamptonCitySchools"><img src="img/YT1.png"></a>
+                <a href="http://www.hampton.k12.va.us/parent/parentportal/parentportal.html"><img src="img/PP.png"></a>
+              </div>
+
+
+        </div>
+        <div id="banner">HAMPTON CITY SCHOOLS <strong>EVERY CHILD, EVERY DAY, WHATEVER IT TAKES!</strong></div>
+        </div>
+
+
+
+
+
+
+        <div id="header"><img src="img/HCS_LOGO_main2.png">
+          <div id="NavBar">
+
+            <a href="Welcome-Page.html">Home</a>
+            <a href="ACP-Info.html">About ACP</a>
+            <a href="MiFi-Info.html">About Mifis</a>
+            <a href="Troubleshooting.html">MiFi Troubleshooting</a>
+            <a href="AssitanceRequestForm.html"style="font-weight:bold;">Request Assistance</a>
+            <a href="About.html">About</a>
+            <a href="http://www.hampton.k12.va.us/index.html">Hampton City Schools</a>
+          </div>
+
+             </div>
+<h2>Request Assistance</h2>
+<div class="bar"><img src="img/stripes.png"></div>
+<div class="content"><p> To request assitance for internet access please fill out the form below. </p></div>
+<div id="InternetForm">
+  <form method="POST" action="https://script.google.com/macros/s/AKfycbxkBk_mM2bzFjyKVbeM05rs4np3y3QldkfvzjaNLl9kfLLz1vtLb4zXXt-QMP8Kwgfc/exec" id="my-form" onsubmit="setTimeout(function () { window.location.reload(); }, 10)">
+  <fieldset>
+    <legend>Internet Access Assistance</legend>
+  <label for="studentFullName"> *Student's Full Name: </label>
+  <input type="text" id="studentFullName" name="studentFullName"required>
+  <label for="studentSchool"> *Student's School: </label>
+  <input type="text" id="studentSchool" name="studentSchool"required>
+  <label for="studentAddress">*Student's Address: </label>
+  <input type="text" id="studentAddress" name="studentAddress"required>
+  <label for="parentName">*Parent's/Guardian's Name: </label>
+  <input type="text" id="parentName" name="parentName"required>
+  <label for="parentPhone">*Parent's/Guardian's Phone Number: </label>
+  <input type="text" id="parentPhone" name="parentPhone"required>
+  <label for="parentEmail">*Parent's/Guardian's eMail Address: </label>
+  <input type="text" id="parentEmail" name="parentEmail" required>
+  <label for="noInternet"><strong>By checking the box, I am confirming that there is not currently any internet access by any means at the street address listed above.</strong></label>
+  <input type="checkbox" id="noInternet" name="noInternet" value="yes">
+  </fieldset>
+  <div class="buttonHolder"><input type="submit" value="Submit"></div>
+  </form>
+</div>
+
+    </body>
+
+    </html>
